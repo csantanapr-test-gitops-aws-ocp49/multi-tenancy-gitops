@@ -18,7 +18,7 @@ spec:
     helm:
       values: |
         ocs-operator:
-          channel: stable-4.9
+          channel: stable-4.8
           sizeGiB: 512
           storageClass: gp2
           argo:
