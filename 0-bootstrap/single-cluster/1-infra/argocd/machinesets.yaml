@@ -18,15 +18,15 @@ spec:
     helm:
       values: |
         refarch-machinesets:
-          infrastructureId: "${INFRASTRUCTURE_ID}"
+          infrastructureId: "prod-ref-001-jrdmg"
           # cloudProvider.name set to aws, azure or vsphere
           cloudProvider:
-            name: "${PLATFORM}" 
-            managed: ${MANAGED}
+            name: "aws" 
+            managed: false
           # only for "aws" or "azure" maybe "gcp"
           cloud:
-            region: ${REGION}
-            image: ${IMAGE_NAME}
+            region: us-east-2
+            image: ami-03d9208319c96db0c
           # only for "vsphere" - ignored for other
           vsphere:
             networkName: ${VS_NETWORK}
