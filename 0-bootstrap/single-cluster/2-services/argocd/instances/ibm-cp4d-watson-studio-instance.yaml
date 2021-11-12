@@ -34,4 +34,4 @@ spec:
       - name: spec.scaleConfig
         value: small
       - name: spec.storageCLass
-        value: managed-nfs-storage
+        value: ocs-storagecluster-cephfs
