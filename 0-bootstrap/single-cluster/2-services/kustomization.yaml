@@ -71,6 +71,9 @@ resources:
 #- argocd/operators/openshift-service-mesh.yaml
 #- argocd/instances/openshift-service-mesh-instance.yaml
 
+# Serverless
+- argocd/operators/openshift-serverless.yaml
+
 # Monitoring
 #- argocd/instances/instana-agent.yaml
 
